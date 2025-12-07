@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { submitRequest } from '../api';
+import { submitRequest } from '../api.js';
 import { ArrowLeft, Loader2 } from 'lucide-react';
 
 const SubmitRequest = () => {
