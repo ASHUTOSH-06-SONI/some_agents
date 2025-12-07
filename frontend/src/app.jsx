@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import SubmitRequest from './pages/SubmitRequest';
-import TrackRequest from './pages/TrackRequest';
-import Dashboard from './pages/Dashboard';
+
+import Home from './home.jsx';
+import SubmitRequest from './submit_request.jsx';
+import TrackRequest from './track_request.jsx';
+import Dashboard from './dashboard.jsx';
 
 function App() {
   return (
