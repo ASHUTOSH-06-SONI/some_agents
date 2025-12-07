@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { checkStatus, updateLogistics, updateRepair } from '../api';
+import { checkStatus, updateLogistics, updateRepair } from './api.js';
 import { ArrowLeft, Truck, Wrench, CheckCircle, AlertCircle } from 'lucide-react';
 
 const Dashboard = () => {
