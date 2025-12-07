@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { checkStatus } from '../api';
+import { checkStatus } from './api.js';
 import { ArrowLeft, Search, CheckCircle, XCircle, Clock, Truck, Wrench } from 'lucide-react';
 
 const TrackRequest = () => {
